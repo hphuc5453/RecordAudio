@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">RecordAudio</string>
+    <string name="text_time_start">0:00</string>
+    <string name="text_start">Start</string>
+    <string name="text_stop">Stop</string>
+    <string name="text_play">Play</string>
+    <string name="text_pause">Pause</string>
 </resources>

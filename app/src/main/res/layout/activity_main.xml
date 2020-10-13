@@ -10,7 +10,7 @@
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/text_time_start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,7 +24,7 @@
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start"
+        android:text="@string/text_start"
         android:textAllCaps="false"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -35,7 +35,7 @@
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stop"
+        android:text="@string/text_stop"
         android:textAllCaps="false" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -46,7 +46,7 @@
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
+        android:text="@string/text_play"
         android:textAllCaps="false" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -57,7 +57,7 @@
         android:id="@+id/btnPause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pause"
+        android:text="@string/text_pause"
         android:textAllCaps="false" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
